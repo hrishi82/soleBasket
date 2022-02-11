@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import url('./navbar.css');
+@import url('./typography.css');
+@import url('./badge.css');
+@import url('./button.css');
+@import url('./searchbar.css');
+@import url('./homepage.css');
+
+
+:root{
+
+    font-family: 'Roboto', sans-serif;
+
+    /* Default colors */
+
+    /* --primary-clr: #a137f8; */
+    --primary-clr: #0565ff;
+    --primary-hover-clr: #013d9c;
+
+    --secondary-clr: black;
+    --secondary-hover-clr: rgb(218, 218, 218);
+
+    --success-clr: rgb(3, 158, 3);
+    --success-hover-clr: rgb(2, 116, 2);
+
+    --danger-clr: #ff0000;
+    --danger-hover-clr: #ca0303;
+
+    --warning-clr: #ffa600;
+    --warning-hover-clr: #dd9103;
+    
+
+    --white-bg: rgb(255, 255, 255);
+    --dark-bg: rgb(31, 31, 31);
+    --off-white:rgb(231, 231, 231);
+
+    --seperator-line: rgb(197, 196, 196);
+
+
+
+    /* Default Font colors */
+
+    --text-default-clr: black;
+    --text-secondary-clr: white;
+    --text-grey: rgb(161, 161, 161);
+
+    /* Badge */
+    --badge-w-txt-bg: #ff0000;
+    --badge-font-clr: #ffffff;
+
+    /* Card */
+    --dismiss-btn-background: #ffffff;
+    --card-bg: white; 
+    --card-text-clr-over-img: white;
+    --eCom-card-badge-bg: white;
+    --eCom-card-secondary-text: rgb(161, 161, 161);
+
+    /* Search bar */
+    --search-bar-bg-clr: rgb(231, 231, 231);
+
+
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    background-color: var(--off-white);
+}
+
+.main-container{
+    max-width: 65rem;
+    padding: 1.5rem;
+    margin:auto;
+}
+
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.img-responsive{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+/******** Section margins ********/
+
+.section-gutter-lg{
+    margin: 10rem;
+}
+.section-gutter-md{
+    margin: 7rem;
+}
+.section-gutter-reg{
+    margin: 4rem;
+}
+.section-gutter-sm{
+    margin: 1.5rem;
+}
+
+/******** Top-Bottom margins ********/
+
+.margin-Top-Btm-xs{
+    margin: 0.5rem 0; 
+}
+
+
+
+/******** Responsive media queries ********/
+
+@media screen and (max-width:768px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    html {
+        font-size: 10px;
+    }
+}
