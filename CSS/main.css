@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
 @import url('./navbar.css');
-@import url('./typography.css');
 @import url('./badge.css');
 @import url('./button.css');
+@import url('./input.css');
 @import url('./searchbar.css');
+@import url('./sidebar.css');
 @import url('./homepage.css');
+@import url('./productpage.css');
 
 
 :root{
@@ -14,11 +15,10 @@
 
     /* Default colors */
 
-    /* --primary-clr: #a137f8; */
     --primary-clr: #0565ff;
     --primary-hover-clr: #013d9c;
 
-    --secondary-clr: black;
+    /* --secondary-clr: black;
     --secondary-hover-clr: rgb(218, 218, 218);
 
     --success-clr: rgb(3, 158, 3);
@@ -28,7 +28,7 @@
     --danger-hover-clr: #ca0303;
 
     --warning-clr: #ffa600;
-    --warning-hover-clr: #dd9103;
+    --warning-hover-clr: #dd9103; */
     
 
     --white-bg: rgb(255, 255, 255);
@@ -78,18 +78,6 @@ body{
     margin:auto;
 }
 
-.relative{
-    position: relative;
-}
-.absolute{
-    position: absolute;
-}
-.img-responsive{
-    width: 100%;
-    height: 100%;
-}
-
-
 
 
 
@@ -115,6 +103,11 @@ body{
 }
 
 
+.link-no-decor{
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--text-default-clr);
+}
 
 /******** Responsive media queries ********/
 
