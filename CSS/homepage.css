@@ -93,6 +93,7 @@
     flex: 1 1 25rem;
     margin: 1rem;
     border-radius: 0.2rem;
+    height: 20rem;
 }
 
 .collection-card-img-box{
@@ -106,6 +107,7 @@
     display: flex;
     flex-direction: column;
     padding-left: 1rem;
+
 }
 
 .collection-card-label{
@@ -124,7 +126,6 @@
 
 .collection-card-details{
     margin: 0;
-    margin-bottom: 1rem;
     font-weight: 300;
     font-size: 1rem;
 }

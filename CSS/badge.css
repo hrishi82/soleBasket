@@ -8,4 +8,5 @@
     background-color: var(--badge-w-txt-bg);
     border-radius: 0.5rem;
     font-size: 0.6rem;
+    width: fit-content;
 }

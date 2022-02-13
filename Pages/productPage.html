@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soleBasket</title>
+    <link rel="stylesheet" href="https://nekoui.netlify.app/CSS/components.css">
+    <link rel="stylesheet" href="/CSS/main.css">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <nav class="nav-wrapper">
+        <nav class="nav-items-left">
+            <h4 class="nav-title"><a href="/index.html" class="link-no-decor">soleBasket</a></h4>
+        </nav>
+
+        <nav class="nav-items-center">
+            <div class="search-wrapper nav-search-bar">
+                <input type="text" placeholder="Search.." name="search-bar" class="search-bar">
+                <button type="submit" class="search-bar-btn"><i class="far fa-search"></i></button>
+            </div>
+        </nav>
+
+        <nav class="nav-items-right">
+            <a href="/Pages/loginPage.html" class="nav-link">Login</a>
+            <a href="/Pages/wishlistPage.html" class="nav-link relative">
+                <i class="far fa-heart"></i>
+                <span class="badge-w-txt">9+</span>
+                
+            </a>
+            <a href="/Pages/cartPage.html" class="nav-link relative">
+                <i class="far fa-shopping-cart"></i>
+                <span class="badge-w-txt">53</span>
+            </a>
+        </nav>
+    </nav>
+
+    <div class="product-page-container">
+
+        <aside class="sidebar-wrapper">
+            <div class="sidebar-title-cont">
+                <h3 class="sidebar-title">Filters</h3>
+                <a href='#' class="sidebar-reset-btn">Clear all</a>
+            </div>
+
+            <div class="section-gutter-reg"></div>
+
+            <div class="sidebar-topic-cont">
+                <h3 class="sidebar-topic">Price</h3>
+                <input type="range" min="1" max="100" value="50" class='range-slider'>
+            </div>
+
+            <div class="section-gutter-sm"></div>
+
+            <div class="sidebar-topic-cont">
+                <h3 class="sidebar-topic">Category</h3>
+                <div class="radio-container filter-radio">
+                        <input type="radio" name="M-Clothing" value="Mens-Clothing" />
+                        <label for="Mens-Clothing" class='radio-label'>Men's Clothing</label>
+                </div>
+                <div class="radio-container filter-radio">
+                        <input type="radio" name="M-Clothing" value="Mens-Clothing" />
+                        <label for="Mens-Clothing" class='radio-label'>Men's Clothing</label>
+                </div>
+                <div class="radio-container filter-radio">
+                        <input type="radio" name="M-Clothing" value="Mens-Clothing" />
+                        <label for="Mens-Clothing" class='radio-label'>Men's Clothing</label>
+                </div>
+            </div>
+
+            <div class="section-gutter-sm"></div>
+
+            <div class="sidebar-topic-cont">
+                <h3 class="sidebar-topic">Rating</h3>
+                <div class="radio-container filter-radio">
+                        <input type="radio" name="4star-n-above" value="4star-n-above" />
+                        <label for="4star-n-above" class='radio-label'>4 star & above</label>
+                </div>
+                <div class="radio-container filter-radio">
+                        <input type="radio" name="3star-n-above" value="3star-n-above" />
+                        <label for="3star-n-above" class='radio-label'>3 star & above</label>
+                </div>
+                <div class="radio-container filter-radio">
+                        <input type="radio" name="3star-n-above" value="3star-n-above" />
+                        <label for="3star-n-above" class='radio-label'>2 star & above</label>
+                </div>
+            </div>
+
+            <div class="section-gutter-sm"></div>
+
+            <div class="sidebar-topic-cont">
+                <h3 class="sidebar-topic">Sort By</h3>
+                <div class="radio-container filter-radio">
+                        <input type="radio" name="price-H-L" value="price-H-L" />
+                        <label for="price-H-L" class='radio-label'>Price - High to Low</label>
+                </div>
+                <div class="radio-container filter-radio">
+                        <input type="radio" name="price-L-H" value="price-L-H" />
+                        <label for="price-L-H" class='radio-label'>Price - Low to High</label>
+                </div>
+
+            </div>
+        </aside>
+
+        <section class="products-container">
+
+            <h3 class="products-container-info-text">Showing All Products</h3>
+
+            <div class="products-container-content">
+                <div class="product-card relative">
+                    <span class='product-card-badge absolute'>
+                        <i class="far fa-heart"></i>
+                    </span>
+        
+                    <div class="product-card-img-box">
+                        <img  src="/images/turbogreen.jpg" alt="product-image" class='img-responsive'>
+                    </div>
+        
+                    <section class="product-card-body">
+                        <h5 class="product-card-title">Nike AJ1 - Turbo green</h5>
+                        <div class="product-card-price-wrapper">
+                            <div class="product-card-price-section">
+                                <h5 class="product-card-prod-price">Rs.13999</h5>
+                                <h6 class="product-card-prod-prev-price">Rs.12599</h6>
+                            </div>
+                            <div class="product-card-price-subinfo">
+                                <h6 class="product-card-off-percent">(10% off)</h6>
+                            </div>
+                        </div>
+        
+                        <section class="product-card-btn-wrapper">
+                            <button class="btn card-btn">Go to Cart</button>
+                        </section>
+                    </section>
+                </div>
+        
+                <div class="product-card relative">
+                    <span class='product-card-badge absolute'>
+                        <i class="far fa-heart"></i>
+                    </span>
+        
+                    <div class="product-card-img-box">
+                        <img  src="/images/turbogreen.jpg" alt="product-image" class='img-responsive'>
+                    </div>
+        
+                    <section class="product-card-body">
+                        <h5 class="product-card-title">Nike AJ1 - Turbo green</h5>
+                        <div class="product-card-price-wrapper">
+                            <div class="product-card-price-section">
+                                <h5 class="product-card-prod-price">Rs.13999</h5>
+                                <h6 class="product-card-prod-prev-price">Rs.12599</h6>
+                            </div>
+                            <div class="product-card-price-subinfo">
+                                <h6 class="product-card-off-percent">(10% off)</h6>
+                            </div>
+                        </div>
+        
+                        <section class="product-card-btn-wrapper">
+                            <button class="btn card-btn">Go to Cart</button>
+                        </section>
+                    </section>
+                </div>
+        
+                <div class="product-card relative">
+                    <span class='product-card-badge absolute'>
+                        <i class="far fa-heart"></i>
+                    </span>
+        
+                    <div class="product-card-img-box">
+                        <img  src="/images/turbogreen.jpg" alt="product-image" class='img-responsive'>
+                    </div>
+        
+                    <section class="product-card-body">
+                        <h5 class="product-card-title">Nike AJ1 - Turbo green</h5>
+                        <div class="product-card-price-wrapper">
+                            <div class="product-card-price-section">
+                                <h5 class="product-card-prod-price">Rs.13999</h5>
+                                <h6 class="product-card-prod-prev-price">Rs.12599</h6>
+                            </div>
+                            <div class="product-card-price-subinfo">
+                                <h6 class="product-card-off-percent">(10% off)</h6>
+                            </div>
+                        </div>
+        
+                        <section class="product-card-btn-wrapper">
+                            <button class="btn card-btn">Go to Cart</button>
+                        </section>
+                    </section>
+                </div>
+        
+                <div class="product-card relative">
+                    <span class='product-card-badge absolute'>
+                        <i class="far fa-heart"></i>
+                    </span>
+        
+                    <div class="product-card-img-box">
+                        <img  src="/images/turbogreen.jpg" alt="product-image" class='img-responsive'>
+                    </div>
+        
+                    <section class="product-card-body">
+                        <h5 class="product-card-title">Nike AJ1 - Turbo green</h5>
+                        <div class="product-card-price-wrapper">
+                            <div class="product-card-price-section">
+                                <h5 class="product-card-prod-price">Rs.13999</h5>
+                                <h6 class="product-card-prod-prev-price">Rs.12599</h6>
+                            </div>
+                            <div class="product-card-price-subinfo">
+                                <h6 class="product-card-off-percent">(10% off)</h6>
+                            </div>
+                        </div>
+        
+                        <section class="product-card-btn-wrapper">
+                            <button class="btn card-btn">Go to Cart</button>
+                        </section>
+                    </section>
+                </div>
+        
+                <div class="product-card relative">
+                    <span class='product-card-badge absolute'>
+                        <i class="far fa-heart"></i>
+                    </span>
+        
+                    <div class="product-card-img-box">
+                        <img  src="/images/turbogreen.jpg" alt="product-image" class='img-responsive'>
+                    </div>
+        
+                    <section class="product-card-body">
+                        <h5 class="product-card-title">Nike AJ1 - Turbo green</h5>
+                        <div class="product-card-price-wrapper">
+                            <div class="product-card-price-section">
+                                <h5 class="product-card-prod-price">Rs.13999</h5>
+                                <h6 class="product-card-prod-prev-price">Rs.12599</h6>
+                            </div>
+                            <div class="product-card-price-subinfo">
+                                <h6 class="product-card-off-percent">(10% off)</h6>
+                            </div>
+                        </div>
+        
+                        <section class="product-card-btn-wrapper">
+                            <button class="btn card-btn">Go to Cart</button>
+                        </section>
+                    </section>
+                </div>
+        
+                <div class="product-card relative">
+                    <span class='product-card-badge absolute'>
+                        <i class="far fa-heart"></i>
+                    </span>
+        
+                    <div class="product-card-img-box">
+                        <img  src="/images/turbogreen.jpg" alt="product-image" class='img-responsive'>
+                    </div>
+        
+                    <section class="product-card-body">
+                        <h5 class="product-card-title">Nike AJ1 - Turbo green</h5>
+                        <div class="product-card-price-wrapper">
+                            <div class="product-card-price-section">
+                                <h5 class="product-card-prod-price">Rs.13999</h5>
+                                <h6 class="product-card-prod-prev-price">Rs.12599</h6>
+                            </div>
+                            <div class="product-card-price-subinfo">
+                                <h6 class="product-card-off-percent">(10% off)</h6>
+                            </div>
+                        </div>
+        
+                        <section class="product-card-btn-wrapper">
+                            <button class="btn card-btn">Go to Cart</button>
+                        </section>
+                    </section>
+                </div>
+                <div class="product-card relative">
+                    <span class='product-card-badge absolute'>
+                        <i class="far fa-heart"></i>
+                    </span>
+        
+                    <div class="product-card-img-box">
+                        <img  src="/images/turbogreen.jpg" alt="product-image" class='img-responsive'>
+                    </div>
+        
+                    <section class="product-card-body">
+                        <h5 class="product-card-title">Nike AJ1 - Turbo green</h5>
+                        <div class="product-card-price-wrapper">
+                            <div class="product-card-price-section">
+                                <h5 class="product-card-prod-price">Rs.13999</h5>
+                                <h6 class="product-card-prod-prev-price">Rs.12599</h6>
+                            </div>
+                            <div class="product-card-price-subinfo">
+                                <h6 class="product-card-off-percent">(10% off)</h6>
+                            </div>
+                        </div>
+        
+                        <section class="product-card-btn-wrapper">
+                            <button class="btn card-btn">Go to Cart</button>
+                        </section>
+                    </section>
+                </div>
+            </div>
+
+        </section>
+
+
+    </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+.range-slider{
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.radio-label{
+    margin-left: 0.5rem;
+}
+
+.radio-container {
+    margin: 0.5rem 0;
+}
+.radio-container  > input{
+    margin: 0;
+}

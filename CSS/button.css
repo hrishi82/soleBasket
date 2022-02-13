@@ -1,38 +1,19 @@
 .btn{
-    background-color: var(--primary-clr);
-    color: var(--text-secondary-clr);
-    border: none;
-    font-size: 0.8rem;
+    margin: 0;
     padding: 0.6rem 0.7rem;
-    border-radius: 0.2rem;
     width: fit-content;
-    cursor: pointer;
     box-sizing: border-box;
     text-decoration: none;
-}
-.btn:hover{
-    background-color: var(--primary-hover-clr);
 }
 
 .pill-btn{
     border-radius: 5rem;
 }
 
-
-.btn-primary{
-    background-color: var(--primary-clr);
+.pill-btn-lg{
+    padding: 0.8rem 1.5rem;
 }
 
-.btn-primary:hover{
-    background-color: var(--primary-hover-clr);
+.card-btn{
+    width: 100%;
 }
-
-.btn-secondary{
-    background-color: var(--secondary-clr);
-}
-
-.btn-secondary:hover{
-    background-color: var(--secondary-hover-clr);
-    color: var(--text-default-clr)
-}
-
