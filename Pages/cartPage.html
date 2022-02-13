@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soleBasket | Cart Page</title>
+    <link rel="stylesheet" href="https://nekoui.netlify.app/CSS/components.css">
+    <link rel="stylesheet" href="/CSS/main.css">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <nav class="nav-wrapper">
+        <nav class="nav-items-left">
+            <h4 class="nav-title"><a href="/index.html" class="link-no-decor">soleBasket</a></h4>
+        </nav>
+
+        <nav class="nav-items-center">
+            <div class="search-wrapper nav-search-bar">
+                <input type="text" placeholder="Search.." name="search-bar" class="search-bar">
+                <button type="submit" class="search-bar-btn"><i class="far fa-search"></i></button>
+            </div>
+        </nav>
+
+        <nav class="nav-items-right">
+            <a href="/Pages/loginPage.html" class="nav-link">Login</a>
+            <a href="/Pages/wishlistPage.html" class="nav-link relative">
+                <i class="far fa-heart"></i>
+                <span class="badge-w-txt">9+</span>
+                
+            </a>
+            <a href="/Pages/cartPage.html" class="nav-link relative">
+                <i class="far fa-shopping-cart"></i>
+                <span class="badge-w-txt">53</span>
+            </a>
+        </nav>
+    </nav>
+
+   <main class="cart-page-container">
+
+    <section class="cart-page-contents">
+        <div class="prod-card-landscape relative">
+            <span class='product-card-badge absolute'>
+                <i class="far fa-heart"></i>
+            </span>
+    
+            <section class="prod-card-landscape-image-box">
+                <img  src="/images/turbogreen.jpg" alt="landscape" class='img-responsive'>
+            </section>
+    
+            <section class="prod-card-landscape-body">
+                <section class="product-card-body">
+                    <h5 class="product-card-title"><span class='text-reg'>Nike AJ1 - Turbo Green</span></h5>
+                    <div class="product-card-price-wrapper">
+                        <div class="product-card-price-section">
+                            <h5 class="product-card-prod-price">Rs.10499</h5>
+                            <h6 class="product-card-prod-prev-price">Rs.14499</h6>
+                        </div>
+                        <div class="product-card-price-subinfo">
+                            <h6 class="product-card-off-percent">(33% off)</h6>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="item-quantity-container">
+                    <span class="item-quantity-title">Quantity:</span>
+                    <span class="item-quantity-icon-btn"><i class="fas fa-minus-circle"></i></span>
+                    <span class="item-quantity">2</span>
+                    <span class="item-quantity-icon-btn"><i class="fas fa-plus-circle"></i></p>
+                </div>
+        
+                <section class="product-card-btn-wrapper">
+                    
+                    <button class="btn btn-secondary card-btn">Move to Wishlist</button>
+
+                </section>
+            </section>
+    
+        </div>   
+        <div class="prod-card-landscape relative">
+            <span class='product-card-badge absolute'>
+                <i class="far fa-heart"></i>
+            </span>
+    
+            <section class="prod-card-landscape-image-box">
+                <img  src="/images/turbogreen.jpg" alt="landscape" class='img-responsive'>
+            </section>
+    
+            <section class="prod-card-landscape-body">
+                <section class="product-card-body">
+                    <h5 class="product-card-title"><span class='text-reg'>Nike AJ1 - Turbo Green</span></h5>
+                    <div class="product-card-price-wrapper">
+                        <div class="product-card-price-section">
+                            <h5 class="product-card-prod-price">Rs.10499</h5>
+                            <h6 class="product-card-prod-prev-price">Rs.14499</h6>
+                        </div>
+                        <div class="product-card-price-subinfo">
+                            <h6 class="product-card-off-percent">(33% off)</h6>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="item-quantity-container">
+                    <span class="item-quantity-title">Quantity:</span>
+                    <span class="item-quantity-icon-btn"><i class="fas fa-minus-circle"></i></span>
+                    <span class="item-quantity">2</span>
+                    <span class="item-quantity-icon-btn"><i class="fas fa-plus-circle"></i></p>
+                </div>
+        
+                <section class="product-card-btn-wrapper">
+                    
+                    <button class="btn btn-secondary card-btn">Move to Wishlist</button>
+
+                </section>
+            </section>
+    
+        </div>   
+  
+    </section>
+
+
+    <section class="cart-summary-container">
+            <h3 class="cart-summary-heading">Price details</h3>
+            <hr>
+
+            <div class="cart-summary-price-content">
+
+                <div class="cart-summary-price">
+                    <span>Price (2 items)</span>
+                    <span>&#8377; 28998</span>
+                </div>
+
+                <div class="cart-summary-price">
+                    <span>Discount</span>
+                    <span>&#8377; -5999</span>
+                </div>
+                <div class="cart-summary-price">
+                    <span>Delivery Charges </span>
+                    <span>&#8377; 499</span>
+                </div>
+
+            </div>
+
+            <hr>
+            <div class="cart-summary-price cart-summary-price-total">
+                <span><strong>Total amount</strong></span>
+                <span>&#8377; 23999</span>
+            </div>
+            <hr>
+            <p class="cart-summary-price-saving">You will save Rs.5999 on this order!</p>
+            <div class="cart-summary-btn-container">
+                <button class="btn btn-primary">Place order</button>    
+            </div>
+
+    </section>
+
+   
+
+
+    </main>
+
+
+
+</body>
+</html>
