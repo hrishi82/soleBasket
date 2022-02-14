@@ -7,6 +7,9 @@
 @import url('./sidebar.css');
 @import url('./homepage.css');
 @import url('./productpage.css');
+@import url('./cartpage.css');
+@import url('./wishlistpage.css');
+@import url('./authpage.css');
 
 
 :root{
