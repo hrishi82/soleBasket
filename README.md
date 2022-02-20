@@ -19,6 +19,9 @@
     - Login
     - Logout
 
+## Live Link
+- https://solebasket.netlify.app/
+
 ## UI Snapshots:
 
 - Homepage
