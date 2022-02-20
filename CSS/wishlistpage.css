@@ -18,6 +18,10 @@
     padding: 1rem;
 }
 
+.wishlist-icon{
+    color: red;
+}
+
 
 
 @media screen and (max-width:800px){

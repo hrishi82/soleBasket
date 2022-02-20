@@ -50,7 +50,15 @@
 
             <div class="sidebar-topic-cont">
                 <h3 class="sidebar-topic">Price</h3>
-                <input type="range" min="1" max="100" value="50" class='range-slider'>
+                <div class="price-slider-container">
+                    <div class="price-slider-values">
+                        <span class="text-sm">0</span>
+                        <span class="text-sm">10000</span>
+                        <span class="text-sm">50000</span>
+                    </div>
+                    <input type="range" min="1" max="100" value="50" class='range-slider price-slider'>
+                </div>
+                
             </div>
 
             <div class="section-gutter-sm"></div>
@@ -58,16 +66,16 @@
             <div class="sidebar-topic-cont">
                 <h3 class="sidebar-topic">Category</h3>
                 <div class="radio-container filter-radio">
-                        <input type="radio" name="M-Clothing" value="Mens-Clothing" />
-                        <label for="Mens-Clothing" class='radio-label'>Men's Clothing</label>
+                        <input type="radio" name="category" value="Mens-Clothing" />
+                        <label for="category" class='radio-label'>Men's Clothing</label>
                 </div>
                 <div class="radio-container filter-radio">
-                        <input type="radio" name="M-Clothing" value="Mens-Clothing" />
-                        <label for="Mens-Clothing" class='radio-label'>Men's Clothing</label>
+                        <input type="radio" name="category" value="Womens-Clothing" />
+                        <label for="category" class='radio-label'>Women's Clothing</label>
                 </div>
                 <div class="radio-container filter-radio">
-                        <input type="radio" name="M-Clothing" value="Mens-Clothing" />
-                        <label for="Mens-Clothing" class='radio-label'>Men's Clothing</label>
+                        <input type="radio" name="category" value="Kids-Clothing" />
+                        <label for="category" class='radio-label'>Kids Clothing</label>
                 </div>
             </div>
 
@@ -76,16 +84,16 @@
             <div class="sidebar-topic-cont">
                 <h3 class="sidebar-topic">Rating</h3>
                 <div class="radio-container filter-radio">
-                        <input type="radio" name="4star-n-above" value="4star-n-above" />
-                        <label for="4star-n-above" class='radio-label'>4 star & above</label>
+                        <input type="radio" name="rating" value="4star-n-above" />
+                        <label for="4rating" class='radio-label'>4 star & above</label>
                 </div>
                 <div class="radio-container filter-radio">
-                        <input type="radio" name="3star-n-above" value="3star-n-above" />
-                        <label for="3star-n-above" class='radio-label'>3 star & above</label>
+                        <input type="radio" name="rating" value="3star-n-above" />
+                        <label for="rating" class='radio-label'>3 star & above</label>
                 </div>
                 <div class="radio-container filter-radio">
-                        <input type="radio" name="3star-n-above" value="3star-n-above" />
-                        <label for="3star-n-above" class='radio-label'>2 star & above</label>
+                        <input type="radio" name="rating" value="3star-n-above" />
+                        <label for="rating" class='radio-label'>2 star & above</label>
                 </div>
             </div>
 
@@ -94,12 +102,12 @@
             <div class="sidebar-topic-cont">
                 <h3 class="sidebar-topic">Sort By</h3>
                 <div class="radio-container filter-radio">
-                        <input type="radio" name="price-H-L" value="price-H-L" />
-                        <label for="price-H-L" class='radio-label'>Price - High to Low</label>
+                        <input type="radio" name="price-sort" value="price-H-L" />
+                        <label for="price-sort" class='radio-label'>Price - High to Low</label>
                 </div>
                 <div class="radio-container filter-radio">
-                        <input type="radio" name="price-L-H" value="price-L-H" />
-                        <label for="price-L-H" class='radio-label'>Price - Low to High</label>
+                        <input type="radio" name="price-sort" value="price-L-H" />
+                        <label for="price-sort" class='radio-label'>Price - Low to High</label>
                 </div>
 
             </div>
@@ -132,7 +140,7 @@
                         </div>
         
                         <section class="product-card-btn-wrapper">
-                            <button class="btn card-btn">Go to Cart</button>
+                            <button class="btn card-btn">Add to Cart</button>
                         </section>
                     </section>
                 </div>
@@ -159,7 +167,7 @@
                         </div>
         
                         <section class="product-card-btn-wrapper">
-                            <button class="btn card-btn">Go to Cart</button>
+                            <button class="btn card-btn">Add to Cart</button>
                         </section>
                     </section>
                 </div>
@@ -186,7 +194,7 @@
                         </div>
         
                         <section class="product-card-btn-wrapper">
-                            <button class="btn card-btn">Go to Cart</button>
+                            <button class="btn card-btn">Add to Cart</button>
                         </section>
                     </section>
                 </div>
@@ -213,7 +221,7 @@
                         </div>
         
                         <section class="product-card-btn-wrapper">
-                            <button class="btn card-btn">Go to Cart</button>
+                            <button class="btn card-btn">Add to Cart</button>
                         </section>
                     </section>
                 </div>
@@ -240,7 +248,7 @@
                         </div>
         
                         <section class="product-card-btn-wrapper">
-                            <button class="btn card-btn">Go to Cart</button>
+                            <button class="btn card-btn">Add to Cart</button>
                         </section>
                     </section>
                 </div>
@@ -267,7 +275,7 @@
                         </div>
         
                         <section class="product-card-btn-wrapper">
-                            <button class="btn card-btn">Go to Cart</button>
+                            <button class="btn card-btn">Add to Cart</button>
                         </section>
                     </section>
                 </div>
@@ -293,7 +301,7 @@
                         </div>
         
                         <section class="product-card-btn-wrapper">
-                            <button class="btn card-btn">Go to Cart</button>
+                            <button class="btn card-btn">Add to Cart</button>
                         </section>
                     </section>
                 </div>
