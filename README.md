@@ -1,9 +1,13 @@
 # soleBasket
  soleBasket is a e-commerce site for shoes
+ 
+ <br/>
 
  ## Tech stack used
  - HTML
  - CSS
+
+<br/>
 
 ## Pages Added
 - Home Page
@@ -19,8 +23,12 @@
     - Login
     - Logout
 
+<br/>
+
 ## Live Link
-- https://solebasket.netlify.app/
+https://solebasket.netlify.app/
+
+<br/>
 
 ## UI Snapshots:
 
